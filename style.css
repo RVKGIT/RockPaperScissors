@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700,800&display=swap');
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+}
+
+body{
+ background:#24272E;	
+}
+
+header{
+  background: white;
+  padding: 30px;  
+}
+
+header > h1{
+ color: #25272E;
+ text-align: center;
+ font-family: Asap, sans-serif;
+}
+
+.ScoreBoard{
+ margin: 30px auto;
+ border: 5px solid white;
+ width: 200px; 
+ color: white;
+ text-align: center;
+ font-size: 35px;
+ padding: 10px 15px;
+ font-family: Asap, sans-serif;
+ position: relative;
+ border-radius: 20px;
+}
+
+.badge{
+ color: white; 
+ background: #E25840; 
+ font-size: 18px;
+ padding: 5px 5px;
+ font-family: Asap, sans-serif;
+}
+
+#u-lable{
+ position: absolute;
+ left: -30px;
+ top: 15px; 
+}
+
+#c-lable{
+ position: absolute;
+ left: 160px;
+ top: 15px; 
+}
+
+.Result>h1{
+ text-align: center;	
+ color: white;
+ font-weight: bold;
+}
+.choices{
+ text-align: center;
+}
+
+.choice{
+ display: inline-block;	
+ padding: 20px 25px;
+ border: 5px solid white;
+ margin: 20px 20px;
+ border-radius: 50%;
+ transition: all 0.5s ease;
+}
+.choice:hover{
+ cursor: pointer;
+ background: grey;
+}
+
+#Instruction-Message{
+ color: white;
+ text-align: center;
+ font-size: 30px;
+ font-size: Asap, sans-serif;
+ font-weight: bold;
+}
+
+.win-glow{
+  border: 5px solid #4dcc7d;
+  box-shadow: 0 0 10px #31b43a;  
+}
+
+.loose-glow{
+  border: 5px solid #fc121b;
+  box-shadow: 0 0 10px #d01115;  
+}
+
+.draw-glow{
+  border: 5px solid black;
+  box-shadow: 0 0 10px #25292b;  
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
